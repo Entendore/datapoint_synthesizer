@@ -1,0 +1,49 @@
+{
+  "QA Pairs": {
+    "name": "QA Pairs",
+    "description": "Question-answer pairs for QA training",
+    "category": "NLP",
+    "examples": [
+      {"question": "What is the capital of France?", "answer": "Paris", "difficulty": "easy"},
+      {"question": "Who wrote Romeo and Juliet?", "answer": "Shakespeare", "difficulty": "medium"}
+    ],
+    "tags": ["qa", "nlp", "question-answering"]
+  },
+  "RL SARS Tuples": {
+    "name": "RL SARS Tuples",
+    "description": "State-Action-Reward-NextState for RL",
+    "category": "RL",
+    "examples": [
+      {"state": "Agent at (0,0)", "action": "move_right", "reward": 0.1, "next_state": "Agent at (1,0)", "done": false}
+    ],
+    "tags": ["rl", "reinforcement-learning", "sars"]
+  },
+  "Text Classification": {
+    "name": "Text Classification",
+    "description": "Text with category labels",
+    "category": "NLP",
+    "examples": [
+      {"text": "The movie was amazing!", "label": "positive", "confidence": 0.95},
+      {"text": "Terrible experience.", "label": "negative", "confidence": 0.88}
+    ],
+    "tags": ["classification", "sentiment", "nlp"]
+  },
+  "NER Sequences": {
+    "name": "NER Sequences",
+    "description": "Named entity recognition with BIO tags",
+    "category": "NLP",
+    "examples": [
+      {"tokens": ["John", "lives", "in", "Paris"], "tags": ["B-PERSON", "O", "O", "B-GPE"]}
+    ],
+    "tags": ["ner", "sequence-labeling", "nlp"]
+  },
+  "Image Classification": {
+    "name": "Image Classification",
+    "description": "Image paths with labels",
+    "category": "CV",
+    "examples": [
+      {"image_path": "cat_001.jpg", "label": "cat", "bbox": [10, 20, 100, 150]}
+    ],
+    "tags": ["image", "classification", "cv"]
+  }
+}

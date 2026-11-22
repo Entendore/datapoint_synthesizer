@@ -1,0 +1,31 @@
+# Core
+PySide6>=6.5.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# NLP
+spacy>=3.5.0
+nltk>=3.8.0
+
+# ML
+scikit-learn>=1.2.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+networkx>=3.0.0
+
+# Validation
+pydantic>=2.0.0
+jsonschema>=4.17.0
+
+# Database
+sqlalchemy>=2.0.0
+pymongo>=4.3.0
+
+# API
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# Image processing
+Pillow>=9.5.0
